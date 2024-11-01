@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg" style="border-radius: 50%;">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg">
+    <!-- jQuery (ensure jQuery is loaded before using $ functions) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- Main Content -->
+
+<!-- Carousel Section -->
+<div id="decorCarousel" class="carousel slide" data-bs-ride="carousel" style="padding-top: 100px;">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url('img/hom1.jpg');">
+        <div class="carousel-caption">
+          <h2>Decor</h2>
+          <p>We can decorate any interior or exterior space to match the look you hope to achieve.</p>
+          <a href="#">Click Here</a>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url('img/homw.jpg');">
+        <div class="carousel-caption">
+          <h2>Decor</h2>
+          <p>Let us create a stunning ambiance for your special occasion.</p>
+          <a href="#">Explore More</a>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url('img/home4.jpg');">
+        <div class="carousel-caption">
+          <h2>Decor</h2>
+          <p>Transform any space to make it uniquely yours.</p>
+          <a href="#">Discover</a>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#decorCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#decorCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+
+  <div class="container py-4" style="margin-top: 30px;">
+
+    <!-- About Us Section -->
+    <div class="about-section " style="background-image: url(img/SWIEJKO_flora_2_15_02_tiny.png);">
+      <h1>About Us</h1>
+      <p>
+        Welcome to Decor Likely, the premier destination for all your decoration and event planning needs.
+        
+        We are a team of passionate and experienced professionals dedicated to creating unforgettable experiences for our clients.
+        
+        With an unwavering commitment to excellence, .
+         <span class="highlight">we strive to transform your visions into captivating realities</span></p>
+      <a href="#" class="button">Discover Ceremony</a>
+    </div>
+  
+    <!-- Events Grid -->
+    <div class="events-grid">
+      <div class="event-item">
+        <img src="img/image (1).webp" alt="Weddings">
+        <h2>Weddings</h2>
+        <p><a href="frst.html"> View Detail</a></p>
+      </div>
+      <div class="event-item">
+        <img src="img/home4.jpg" alt="Engagements" style="height: 300px;">
+        <h2>Engagements</h2>
+        <p><a href="eggment.html"> View Detail</a></p>
+      </div>
+      <div class="event-item">
+        <img src="img/download (5).jpeg" alt="Anniversaries">
+        <h2>Anniversaries</h2>
+        <p><a href="annivary.html"> View Detail</a></p>
+      </div>
+      <div class="event-item">
+        <img src="img/bb.jpg" alt="Birthdays">
+        <h2>Mahndi</h2>
+        <p><a href="mahndi.html"> View Detail</a></p>
+      </div>
+    </div>
+    
+    <section class="service-section" style="margin-top: 60px; background-image: url(img/images\ \(4\).jpeg); background-repeat: no-repeat; background-size: cover" >
+        <h1 class="text-center mb-4 py-4">Event Decor <span style="color: #AB934F;">Services</span></h1>
+        <div class="container">
+            <div class="row service-container">
+                <!-- Image Section -->
+                <div class="col-lg-6 service-image fade-in">
+                    <img src="img/bna.png" alt="Service Image" style="width: 100%;">
+                </div>
+                
+                <!-- Text Section -->
+                 
+                <div class="col-lg-6 service-text fade-in">
+                    <h2 class="service-title py-4">Event Services</h2>
+                    <p class="service-description">
+                        We specialize in a variety of events including Haldi, Birthday Parties, Sangeet, Mehndi, Anniversaries, and festivals like Diwali and Eid.
+                        Our goal is to create memorable experiences with beautiful and functional decorations tailored to your needs.
+                    </p>
+                    <button class="btn btn-more-info" style="background-color: #AB934F; color: white; padding-bottom: 10px;">More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex py-4 serv" >
+        <div class="row">
+            <!-- Event Card Template -->
+          <div class="col-lg-4 col-md-6 mb-4 p-3">
+            <div class="card event-card p-3 shadow-sm h-100">
+              <img src="img/about2.jpg" alt="Birthday Decor " width="100%">
+              <h5>Birthday</h5>
+              <p>Create a special day with unique birthday decor, from kids to adults!</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 p-3">
+            <div class="card event-card p-3 shadow-sm h-100">
+              <img src="img/mehndi-seating.png" alt="Kua Pujan Decor" width="100%" style="height: 330px;">
+              <h5>Kua Pujan</h5>
+              <p>Traditional decor for Kua Pujan, making it a memorable ceremony.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 p-3">
+            <div class="card event-card p-3 shadow-sm h-100">
+              <img src="img/download (3).jpeg" alt="Naam Karan Decor" width="100%">
+              <h5>Naam Karan</h5>
+              <p>Beautiful decor for your baby’s Naam Karan ceremony.</p>
+            </div>
+          </div>
+          </div>
+    </section>
+<section>
+  <div class="special-section" style="margin-top: 60px; ">
+    <div class="decorative">❁</div>
+    <h1>Make Something Special With Us</h1>
+    <div class="button-group">
+      <a href="contact.html">Contact Us</a>
+      <a href="eggment.html">Our Service</a>
+    </div>
+  </div>
+  
+  
+  
+  
+  </div>
+</section>
+
+
+
+
+
+  <section>
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Why Choose Us?</h2>
+      <div class="row">
+          <!-- Experience -->
+          <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card feature-card shadow-sm">
+                  <img src="img/images (12).jpeg" alt="Experience" class="card-img-top feature-img">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Experience</h5>
+                      <p class="card-text">With years of experience, we know how to bring your ideas to life seamlessly.</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Budget Creations -->
+          <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card feature-card shadow-sm">
+                  <img src="img/images (11).jpeg" alt="Budget Creations" class="card-img-top feature-img">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Budget Creations</h5>
+                      <p class="card-text">We offer beautiful solutions that fit within your budget without compromising quality.</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Unrivaled Creativity -->
+          <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card feature-card shadow-sm">
+                  <img src="img/sgti.avif" alt="Unrivaled Creativity" class="card-img-top feature-img">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Unrivaled Creativity</h5>
+                      <p class="card-text">Our team brings unique and fresh ideas to make your events truly remarkable.</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Unwavering Commitment -->
+          <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card feature-card shadow-sm">
+                  <img src="img/Umbrella-decor-in-delhi-2.webp" alt="Unwavering Commitment" class="card-img-top feature-img">
+                  <div class="card-body text-center">
+                      <h5 class="card-title">Unwavering Commitment</h5>
+                      <p class="card-text">We are dedicated to ensuring every detail is executed perfectly for your satisfaction.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+  
+
+
+
+
+
+
+    <div id="footer"></div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap and Popper.js scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
